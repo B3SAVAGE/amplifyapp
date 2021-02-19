@@ -63,8 +63,10 @@ async function deleteNote({ id }) {
     <div className="App">
       <h1>My Notes App</h1>
       <input
-        type="file"
-        onChange={onChange}
+      type="file"
+      onChange={onChange}
+      />
+      <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value})}
         placeholder="Note name"
         value={formData.name}
