@@ -5,7 +5,7 @@ import awsExports from "./aws-exports";
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { listTodos } from './graphql/queries';
 import { createTodo as createNoteMutation, deleteTodo as deleteNoteMutation } from './graphql/mutations';
-
+//why
 const initialFormState = { name: '', description: '' }
 
 
