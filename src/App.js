@@ -1,6 +1,7 @@
 import React, { useState, useEffect,  } from 'react';
 import './App.css';
 import { API, Storage } from 'aws-amplify';
+import awsExports from "./aws-exports";
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 import { listTodos } from './graphql/queries';
 import { createTodo as createNoteMutation, deleteTodo as deleteNoteMutation } from './graphql/mutations';
