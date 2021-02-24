@@ -1,18 +1,18 @@
 {
-  "name": "amplifyapp",
+  "name": "amplify-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@aws-amplify/ui-react": "^1.0.2",
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.7.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
     "aws-amplify": "^3.3.20",
-    "form-data": "^4.0.0",
+    "aws-amplify-react": "^4.2.24",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.2",
-    "web-vitals": "^1.1.0"
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
